@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/selenium-server-standalone-3.141.0.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/cucumber jar/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/cucumber jar/cucumber-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/cucumber jar/cucumber-java-1.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/cucumber jar/cucumber-junit-1.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/cucumber jar/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/cucumber jar/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/cucumber jar/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/cucumber jar/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/cucumber jar/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/commons-io-2.6-bin_/commons-io-2.6/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/commons-io-2.6-bin_/commons-io-2.6/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/commons-io-2.6-bin_/commons-io-2.6/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/commons-io-2.6-bin_/commons-io-2.6/commons-io-2.6-tests.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/commons-io-2.6-bin_/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Java/Java and Selenium software/testng-7.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
