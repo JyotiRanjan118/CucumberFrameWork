@@ -1,18 +1,18 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("D:\\Java\\Java Project\\Application Under Test\\Selenium_Cucumber\\OrangeHRM\\OHRMaddEmp.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("D:\\Java\\Java Project\\Application Under Test\\Selenium_Cucumber\\FeatureFiles\\FreeCRMDeals.feature");
 formatter.feature({
   "line": 1,
-  "name": "OrangeHRM add Employee Functionality",
+  "name": "FreeCRM deals data creation",
   "description": "",
-  "id": "orangehrm-add-employee-functionality",
+  "id": "freecrm-deals-data-creation",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 15,
-  "name": "OrangeHRM New Employee registration",
+  "line": 2,
+  "name": "FreeCRM create a new deal scenario",
   "description": "",
-  "id": "orangehrm-add-employee-functionality;orangehrm-new-employee-registration;;2",
+  "id": "freecrm-deals-data-creation;freecrm-create-a-new-deal-scenario",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 4,
@@ -21,253 +21,147 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "Title of the Login Page of OrangeHRM",
+  "name": "Title of the Login Page is FreeCRM",
   "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "User enters \"Admin\" and \"admin123\"",
-  "matchedColumns": [
-    0,
-    1
+  "name": "User enters Username and Password",
+  "rows": [
+    {
+      "cells": [
+        "Username",
+        "Password"
+      ],
+      "line": 7
+    },
+    {
+      "cells": [
+        "naveenautomation",
+        "test@123"
+      ],
+      "line": 8
+    }
   ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "User click on Login button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "User is on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "User moves add employee page",
   "keyword": "Then "
 });
 formatter.step({
   "line": 10,
-  "name": "User enter \"babu\" and \"smith\"",
-  "matchedColumns": [
-    2,
-    3
-  ],
+  "name": "User clicks on Login Page",
   "keyword": "Then "
 });
 formatter.step({
   "line": 11,
+  "name": "User is on Home Page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 12,
+  "name": "User moves to new Deal Page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 13,
+  "name": "User enters deal details",
+  "rows": [
+    {
+      "cells": [
+        "title",
+        "amount",
+        "Probability",
+        "commission"
+      ],
+      "line": 14
+    },
+    {
+      "cells": [
+        "deal01",
+        "1000",
+        "50",
+        "10"
+      ],
+      "line": 15
+    },
+    {
+      "cells": [
+        "deal02",
+        "2000",
+        "60",
+        "20"
+      ],
+      "line": 16
+    },
+    {
+      "cells": [
+        "deal03",
+        "3000",
+        "70",
+        "30"
+      ],
+      "line": 17
+    }
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 19,
   "name": "Close the browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "OHRMaddEmp.User_is_already_Login_Page()"
+  "location": "FreeCRMStepDefination.User_is_already_Login_Page()"
 });
 formatter.result({
-  "duration": 7072268253,
+  "duration": 9164381369,
   "status": "passed"
 });
 formatter.match({
-  "location": "OHRMaddEmp.Title_of_the_Login_Page_of_OrangeHRM()"
+  "location": "FreeCRMStepDefination.Title_of_the_Login_Page_is_FreeCRM()"
 });
 formatter.result({
-  "duration": 12212264,
+  "duration": 18516741,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Admin",
-      "offset": 13
-    },
-    {
-      "val": "admin123",
-      "offset": 25
-    }
-  ],
-  "location": "OHRMaddEmp.User_enters_and(String,String)"
+  "location": "FreeCRMStepDefination.User_enters_Username_and_Password(DataTable)"
 });
 formatter.result({
-  "duration": 322686626,
+  "duration": 348207316,
   "status": "passed"
 });
 formatter.match({
-  "location": "OHRMaddEmp.User_click_on_Login_button()"
+  "location": "FreeCRMStepDefination.User_clicks_on_Login_Page()"
 });
 formatter.result({
-  "duration": 4755820930,
+  "duration": 3328819186,
   "status": "passed"
 });
 formatter.match({
-  "location": "OHRMaddEmp.User_is_on_home_page()"
+  "location": "FreeCRMStepDefination.User_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 12856311,
+  "duration": 8633311,
   "status": "passed"
 });
 formatter.match({
-  "location": "OHRMaddEmp.User_moves_add_employee_page()"
+  "location": "FreeCRMStepDefination.User_moves_to_new_Deal_Page()"
 });
 formatter.result({
-  "duration": 7642261811,
+  "duration": 395215576,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "babu",
-      "offset": 12
-    },
-    {
-      "val": "smith",
-      "offset": 23
-    }
-  ],
-  "location": "OHRMaddEmp.User_enter_and(String,String)"
+  "location": "FreeCRMStepDefination.User_enters_deal_details(DataTable)"
 });
 formatter.result({
-  "duration": 233356512,
+  "duration": 21955301072,
   "status": "passed"
 });
 formatter.match({
-  "location": "OHRMaddEmp.Close_the_browser()"
+  "location": "FreeCRMStepDefination.Close_the_browser()"
 });
 formatter.result({
-  "duration": 95851156,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 16,
-  "name": "OrangeHRM New Employee registration",
-  "description": "",
-  "id": "orangehrm-add-employee-functionality;orangehrm-new-employee-registration;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "User is already Login Page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "Title of the Login Page of OrangeHRM",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "User enters \"Admin\" and \"admin123\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "User click on Login button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "User is on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "User moves add employee page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "User enter \"jrn\" and \"james\"",
-  "matchedColumns": [
-    2,
-    3
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "Close the browser",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "OHRMaddEmp.User_is_already_Login_Page()"
-});
-formatter.result({
-  "duration": 5581262076,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OHRMaddEmp.Title_of_the_Login_Page_of_OrangeHRM()"
-});
-formatter.result({
-  "duration": 9228606,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Admin",
-      "offset": 13
-    },
-    {
-      "val": "admin123",
-      "offset": 25
-    }
-  ],
-  "location": "OHRMaddEmp.User_enters_and(String,String)"
-});
-formatter.result({
-  "duration": 271364534,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OHRMaddEmp.User_click_on_Login_button()"
-});
-formatter.result({
-  "duration": 2200740526,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OHRMaddEmp.User_is_on_home_page()"
-});
-formatter.result({
-  "duration": 11523056,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OHRMaddEmp.User_moves_add_employee_page()"
-});
-formatter.result({
-  "duration": 6975640135,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "jrn",
-      "offset": 12
-    },
-    {
-      "val": "james",
-      "offset": 22
-    }
-  ],
-  "location": "OHRMaddEmp.User_enter_and(String,String)"
-});
-formatter.result({
-  "duration": 242973086,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OHRMaddEmp.Close_the_browser()"
-});
-formatter.result({
-  "duration": 88555718,
+  "duration": 706319104,
   "status": "passed"
 });
 });
