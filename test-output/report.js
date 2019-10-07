@@ -112,56 +112,56 @@ formatter.match({
   "location": "FreeCRMStepDefination.User_is_already_Login_Page()"
 });
 formatter.result({
-  "duration": 9164381369,
+  "duration": 11397948286,
   "status": "passed"
 });
 formatter.match({
   "location": "FreeCRMStepDefination.Title_of_the_Login_Page_is_FreeCRM()"
 });
 formatter.result({
-  "duration": 18516741,
+  "duration": 12296940,
   "status": "passed"
 });
 formatter.match({
   "location": "FreeCRMStepDefination.User_enters_Username_and_Password(DataTable)"
 });
 formatter.result({
-  "duration": 348207316,
+  "duration": 500270705,
   "status": "passed"
 });
 formatter.match({
   "location": "FreeCRMStepDefination.User_clicks_on_Login_Page()"
 });
 formatter.result({
-  "duration": 3328819186,
+  "duration": 6355665435,
   "status": "passed"
 });
 formatter.match({
   "location": "FreeCRMStepDefination.User_is_on_Home_Page()"
 });
 formatter.result({
-  "duration": 8633311,
+  "duration": 11115588,
   "status": "passed"
 });
 formatter.match({
   "location": "FreeCRMStepDefination.User_moves_to_new_Deal_Page()"
 });
 formatter.result({
-  "duration": 395215576,
+  "duration": 409298399,
   "status": "passed"
 });
 formatter.match({
   "location": "FreeCRMStepDefination.User_enters_deal_details(DataTable)"
 });
 formatter.result({
-  "duration": 21955301072,
+  "duration": 20836349407,
   "status": "passed"
 });
 formatter.match({
   "location": "FreeCRMStepDefination.Close_the_browser()"
 });
 formatter.result({
-  "duration": 706319104,
+  "duration": 784330409,
   "status": "passed"
 });
 });
